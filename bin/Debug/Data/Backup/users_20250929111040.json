@@ -1,0 +1,42 @@
+{
+  "admin": {
+    "Username": "admin",
+    "PasswordHash": "JAvlGPq9JyTdtvBO6x2llnRI1+gxwIyPqCKAn3THIKk=",
+    "Role": 0,
+    "FullName": "Quản trị viên",
+    "CreatedDate": "2025-09-28T19:17:36.5693981+07:00",
+    "IsActive": true
+  },
+  "manager": {
+    "Username": "manager",
+    "PasswordHash": "hmSFeWz6jXwM9xEWQCBbgwdkM1R1d1EdgfgDCumezqU=",
+    "Role": 1,
+    "FullName": "Quản lý nhà hàng",
+    "CreatedDate": "2025-09-28T19:17:36.5727752+07:00",
+    "IsActive": true
+  },
+  "staff": {
+    "Username": "staff",
+    "PasswordHash": "EBdue3sk0xes/PjSBkz9LyThVPe1qWYDB31e+BPWprY=",
+    "Role": 2,
+    "FullName": "Nhân viên phục vụ",
+    "CreatedDate": "2025-09-28T19:17:36.5727752+07:00",
+    "IsActive": true
+  },
+  "": {
+    "Username": "",
+    "PasswordHash": "j6y6cuqEhB0CMGBr7vRkySuENk4y56HbME65rFGlPzk=",
+    "Role": 2,
+    "FullName": "",
+    "CreatedDate": "2025-09-28T19:23:08.9210942+07:00",
+    "IsActive": true
+  },
+  "vanhoi12": {
+    "Username": "vanhoi12",
+    "PasswordHash": "HUWddsJIhL5xtmMMHQtwHPdMaGasibAGgIxrbMDiIws=",
+    "Role": 2,
+    "FullName": "vanhoi12",
+    "CreatedDate": "2025-09-29T10:04:44.8772749+07:00",
+    "IsActive": true
+  }
+}

@@ -1,0 +1,398 @@
+[
+  {
+    "Id": "8dc922f7-02b1-4a6e-b4f3-4fce22e3abe0",
+    "Username": "admin",
+    "Action": "LOGIN",
+    "EntityType": "SYSTEM",
+    "EntityId": "",
+    "Timestamp": "2025-09-28T19:18:18.8859217+07:00",
+    "Details": "Đăng nhập hệ thống"
+  },
+  {
+    "Id": "51bb233d-c595-4094-86fd-229e23f2543d",
+    "Username": "admin",
+    "Action": "ADD_DISH",
+    "EntityType": "DISH",
+    "EntityId": "2006",
+    "Timestamp": "2025-09-28T19:19:27.2175423+07:00",
+    "Details": "Thêm món: Mèo đen"
+  },
+  {
+    "Id": "6bfa7e05-abde-498d-999f-d3dedf8ffddb",
+    "Username": "admin",
+    "Action": "LOGIN",
+    "EntityType": "SYSTEM",
+    "EntityId": "",
+    "Timestamp": "2025-09-28T19:19:55.6927285+07:00",
+    "Details": "Đăng nhập hệ thống"
+  },
+  {
+    "Id": "786785d0-f3e6-49fd-b39b-5a04698cd159",
+    "Username": "admin",
+    "Action": "UPDATE_DISH",
+    "EntityType": "DISH",
+    "EntityId": "2006",
+    "Timestamp": "2025-09-28T19:20:16.3929659+07:00",
+    "Details": "Cập nhật món: Mèo đen"
+  },
+  {
+    "Id": "ffbe3f6d-c648-473b-970c-98f37f190af5",
+    "Username": "admin",
+    "Action": "DELETE_DISH",
+    "EntityType": "DISH",
+    "EntityId": "2006",
+    "Timestamp": "2025-09-28T19:20:31.819316+07:00",
+    "Details": "Xóa món: Mèo đen"
+  },
+  {
+    "Id": "3147721f-fcf8-4085-9593-28d98f3fb4f9",
+    "Username": "admin",
+    "Action": "ADD_USER",
+    "EntityType": "USER",
+    "EntityId": "",
+    "Timestamp": "2025-09-28T19:23:08.9210942+07:00",
+    "Details": "Thêm người dùng: "
+  },
+  {
+    "Id": "cc371264-d361-45a7-b506-15a1ab114e24",
+    "Username": "admin",
+    "Action": "LOGIN",
+    "EntityType": "SYSTEM",
+    "EntityId": "",
+    "Timestamp": "2025-09-28T20:59:13.5253608+07:00",
+    "Details": "Đăng nhập hệ thống"
+  },
+  {
+    "Id": "1dcde1cd-2ec8-4b4f-99bb-817acd41b1a0",
+    "Username": "admin",
+    "Action": "LOGIN",
+    "EntityType": "SYSTEM",
+    "EntityId": "",
+    "Timestamp": "2025-09-28T21:03:30.3232285+07:00",
+    "Details": "Đăng nhập hệ thống"
+  },
+  {
+    "Id": "388e2524-582a-46f6-a941-6e8e8f5d4e97",
+    "Username": "admin",
+    "Action": "LOGIN",
+    "EntityType": "SYSTEM",
+    "EntityId": "",
+    "Timestamp": "2025-09-29T09:22:24.8927546+07:00",
+    "Details": "Đăng nhập hệ thống"
+  },
+  {
+    "Id": "d801e249-5c31-464a-b4a1-51d18375bb20",
+    "Username": "admin",
+    "Action": "ADD_DISH",
+    "EntityType": "DISH",
+    "EntityId": "2006",
+    "Timestamp": "2025-09-29T09:28:00.6866389+07:00",
+    "Details": "Thêm món: mèo đen"
+  },
+  {
+    "Id": "92eafe42-9051-4115-b5e8-de20e64fda06",
+    "Username": "admin",
+    "Action": "ADD_DISH",
+    "EntityType": "DISH",
+    "EntityId": "1111",
+    "Timestamp": "2025-09-29T09:28:39.2099899+07:00",
+    "Details": "Thêm món: sss"
+  },
+  {
+    "Id": "eb8c7648-79dc-4ed9-9c7a-76d41dc38a6a",
+    "Username": "admin",
+    "Action": "UPDATE_DISH",
+    "EntityType": "DISH",
+    "EntityId": "2006",
+    "Timestamp": "2025-09-29T09:29:32.6780944+07:00",
+    "Details": "Cập nhật món: mèo đen"
+  },
+  {
+    "Id": "6799dbc8-9809-452e-b97f-7775f686c81b",
+    "Username": "admin",
+    "Action": "LOGIN",
+    "EntityType": "SYSTEM",
+    "EntityId": "",
+    "Timestamp": "2025-09-29T09:30:56.2273017+07:00",
+    "Details": "Đăng nhập hệ thống"
+  },
+  {
+    "Id": "c5e304cb-5866-4aa4-811c-adbcf8ab4cf2",
+    "Username": "admin",
+    "Action": "ADD_DISH",
+    "EntityType": "DISH",
+    "EntityId": "1",
+    "Timestamp": "2025-09-29T09:34:40.0043185+07:00",
+    "Details": "Thêm món: 1"
+  },
+  {
+    "Id": "f1c9812f-914a-4fac-9479-ebe93b2f23c4",
+    "Username": "admin",
+    "Action": "LOGIN",
+    "EntityType": "SYSTEM",
+    "EntityId": "",
+    "Timestamp": "2025-09-29T09:35:25.3333886+07:00",
+    "Details": "Đăng nhập hệ thống"
+  },
+  {
+    "Id": "b8104c22-0130-4f70-9c3f-b27b83db0014",
+    "Username": "admin",
+    "Action": "IMPORT_DISHES",
+    "EntityType": "DISH",
+    "EntityId": "",
+    "Timestamp": "2025-09-29T09:35:33.557313+07:00",
+    "Details": "Nhập từ file: mon_an.csv"
+  },
+  {
+    "Id": "94e2d43d-f7aa-4952-8a74-5946c159df02",
+    "Username": "admin",
+    "Action": "IMPORT_DISHES",
+    "EntityType": "DISH",
+    "EntityId": "",
+    "Timestamp": "2025-09-29T09:36:08.8401921+07:00",
+    "Details": "Nhập từ file: deepseek_csv_20250929_cb93c4.txt"
+  },
+  {
+    "Id": "b13f0d02-ad65-4aa3-bffb-9957e57f294d",
+    "Username": "admin",
+    "Action": "UPDATE_DISH",
+    "EntityType": "DISH",
+    "EntityId": "DISH1050",
+    "Timestamp": "2025-09-29T09:37:51.1460038+07:00",
+    "Details": "Cập nhật món: Phở Cuốn"
+  },
+  {
+    "Id": "34d2f171-13cc-4f68-aac1-a33a7abfb377",
+    "Username": "admin",
+    "Action": "LOGIN",
+    "EntityType": "SYSTEM",
+    "EntityId": "",
+    "Timestamp": "2025-09-29T09:39:13.7688446+07:00",
+    "Details": "Đăng nhập hệ thống"
+  },
+  {
+    "Id": "516df545-9de4-4100-ae79-250c3ed15079",
+    "Username": "admin",
+    "Action": "ADD_INGREDIENT",
+    "EntityType": "INGREDIENT",
+    "EntityId": "ad",
+    "Timestamp": "2025-09-29T09:41:26.5409324+07:00",
+    "Details": "Thêm nguyên liệu: ad"
+  },
+  {
+    "Id": "216a8069-1e7a-4bda-80be-3b2a02b9e583",
+    "Username": "admin",
+    "Action": "DELETE_INGREDIENT",
+    "EntityType": "INGREDIENT",
+    "EntityId": "ad",
+    "Timestamp": "2025-09-29T09:41:45.524412+07:00",
+    "Details": "Xóa nguyên liệu: ad"
+  },
+  {
+    "Id": "a6b899a6-3733-448b-bea6-c0dfeb650141",
+    "Username": "admin",
+    "Action": "ADD_INGREDIENT",
+    "EntityType": "INGREDIENT",
+    "EntityId": "ad",
+    "Timestamp": "2025-09-29T09:42:15.3829074+07:00",
+    "Details": "Thêm nguyên liệu: ad"
+  },
+  {
+    "Id": "ae02f525-61c2-40b0-9a96-4855fd505d49",
+    "Username": "admin",
+    "Action": "LOGIN",
+    "EntityType": "SYSTEM",
+    "EntityId": "",
+    "Timestamp": "2025-09-29T09:43:00.4873368+07:00",
+    "Details": "Đăng nhập hệ thống"
+  },
+  {
+    "Id": "fb6a770c-f7b9-4ab5-964b-2552b37e6ac7",
+    "Username": "admin",
+    "Action": "DELETE_INGREDIENT",
+    "EntityType": "INGREDIENT",
+    "EntityId": "ad",
+    "Timestamp": "2025-09-29T09:43:09.7723819+07:00",
+    "Details": "Xóa nguyên liệu: ad"
+  },
+  {
+    "Id": "b028bc14-0cc8-450b-9086-d3f64c03d566",
+    "Username": "admin",
+    "Action": "IMPORT_INGREDIENTS",
+    "EntityType": "INGREDIENT",
+    "EntityId": "",
+    "Timestamp": "2025-09-29T09:43:15.2963877+07:00",
+    "Details": "Nhập từ file: nguyen_lieu.csv"
+  },
+  {
+    "Id": "28de77af-c6f0-4e4f-bde9-5d8ca7f1cf33",
+    "Username": "admin",
+    "Action": "CREATE_COMBO",
+    "EntityType": "COMBO",
+    "EntityId": "1",
+    "Timestamp": "2025-09-29T09:51:14.7330786+07:00",
+    "Details": "Tạo combo: mèo đen"
+  },
+  {
+    "Id": "08af0edd-51ef-42f5-84a7-2950c2499d63",
+    "Username": "admin",
+    "Action": "AUTO_GENERATE_COMBO",
+    "EntityType": "COMBO",
+    "EntityId": "COMBO_20250929095139",
+    "Timestamp": "2025-09-29T09:51:39.6933289+07:00",
+    "Details": "Combo nhóm món chính"
+  },
+  {
+    "Id": "a3b568a1-708c-4c09-ad3f-7068b987fd74",
+    "Username": "admin",
+    "Action": "UPDATE_COMBO",
+    "EntityType": "COMBO",
+    "EntityId": "1",
+    "Timestamp": "2025-09-29T09:52:59.7473671+07:00",
+    "Details": "Cập nhật combo: mèo đen"
+  },
+  {
+    "Id": "e7afd578-84cc-481d-94dc-246fe795f724",
+    "Username": "admin",
+    "Action": "CREATE_ORDER",
+    "EntityType": "ORDER",
+    "EntityId": "ORD_20250929095511",
+    "Timestamp": "2025-09-29T09:55:55.5573972+07:00",
+    "Details": "Tạo đơn: h - 767,750đ"
+  },
+  {
+    "Id": "d6caa33a-eb19-4b3c-81bb-49f526bc6a00",
+    "Username": "admin",
+    "Action": "UPDATE_ORDER_STATUS",
+    "EntityType": "ORDER",
+    "EntityId": "ORD_20250929095511",
+    "Timestamp": "2025-09-29T09:59:14.4298098+07:00",
+    "Details": "Cập nhật trạng thái: Completed"
+  },
+  {
+    "Id": "cefb1eb3-3d87-44c5-a093-7a7b379140ad",
+    "Username": "admin",
+    "Action": "EXPORT_ORDERS",
+    "EntityType": "SYSTEM",
+    "EntityId": "",
+    "Timestamp": "2025-09-29T09:59:22.2948984+07:00",
+    "Details": "Xuất danh sách đơn hàng"
+  },
+  {
+    "Id": "6e73b18a-f6dc-48c9-b878-c7c10ff7daf2",
+    "Username": "admin",
+    "Action": "EXPORT_ALL_DATA",
+    "EntityType": "SYSTEM",
+    "EntityId": "",
+    "Timestamp": "2025-09-29T10:00:37.7328449+07:00",
+    "Details": "Xuất toàn bộ dữ liệu"
+  },
+  {
+    "Id": "2278e853-c38d-48c5-a211-3a06167d32b6",
+    "Username": "manager",
+    "Action": "LOGIN",
+    "EntityType": "SYSTEM",
+    "EntityId": "",
+    "Timestamp": "2025-09-29T10:03:28.9524581+07:00",
+    "Details": "Đăng nhập hệ thống"
+  },
+  {
+    "Id": "93442412-fdbf-4fd3-ab5a-f3f3726e1a5d",
+    "Username": "staff",
+    "Action": "LOGIN",
+    "EntityType": "SYSTEM",
+    "EntityId": "",
+    "Timestamp": "2025-09-29T10:03:54.9785617+07:00",
+    "Details": "Đăng nhập hệ thống"
+  },
+  {
+    "Id": "ac2eb6c5-77ba-46ae-9b97-d901aa3ba3b3",
+    "Username": "admin",
+    "Action": "LOGIN",
+    "EntityType": "SYSTEM",
+    "EntityId": "",
+    "Timestamp": "2025-09-29T10:04:04.7393708+07:00",
+    "Details": "Đăng nhập hệ thống"
+  },
+  {
+    "Id": "aaaf741f-b068-4f4e-8420-2bacfad3e31b",
+    "Username": "admin",
+    "Action": "ADD_USER",
+    "EntityType": "USER",
+    "EntityId": "vanhoi12",
+    "Timestamp": "2025-09-29T10:04:44.8772749+07:00",
+    "Details": "Thêm người dùng: vanhoi12"
+  },
+  {
+    "Id": "4b4b69ee-f832-4276-8c8c-6f512138a9b7",
+    "Username": "admin",
+    "Action": "LOGIN",
+    "EntityType": "SYSTEM",
+    "EntityId": "",
+    "Timestamp": "2025-09-29T10:48:49.3482562+07:00",
+    "Details": "Đăng nhập hệ thống"
+  },
+  {
+    "Id": "44e50a6d-b62c-44a8-821c-8687d4e61c86",
+    "Username": "admin",
+    "Action": "CREATE_COMBO",
+    "EntityType": "COMBO",
+    "EntityId": "jh",
+    "Timestamp": "2025-09-29T10:50:43.1338195+07:00",
+    "Details": "Tạo combo: nkjk"
+  },
+  {
+    "Id": "1775f574-088f-4fe2-92ea-906a32807a5e",
+    "Username": "staff",
+    "Action": "LOGIN",
+    "EntityType": "SYSTEM",
+    "EntityId": "",
+    "Timestamp": "2025-09-29T10:55:15.2515844+07:00",
+    "Details": "Đăng nhập hệ thống"
+  },
+  {
+    "Id": "d3dde19b-7a87-49dd-b8e1-b803a3a49dba",
+    "Username": "staff",
+    "Action": "CREATE_ORDER",
+    "EntityType": "ORDER",
+    "EntityId": "ORD_20250929105558",
+    "Timestamp": "2025-09-29T10:57:45.6533214+07:00",
+    "Details": "Tạo đơn: hoi - 2,005,500đ"
+  },
+  {
+    "Id": "72b55dca-3e7c-41bc-b14b-74359e0a56c8",
+    "Username": "staff",
+    "Action": "UPDATE_ORDER_STATUS",
+    "EntityType": "ORDER",
+    "EntityId": "ORD_20250929105558",
+    "Timestamp": "2025-09-29T10:58:49.6088538+07:00",
+    "Details": "Cập nhật trạng thái: Completed"
+  },
+  {
+    "Id": "5f007ed4-eafb-4792-9097-975be03067b3",
+    "Username": "staff",
+    "Action": "CREATE_ORDER",
+    "EntityType": "ORDER",
+    "EntityId": "ORD_20250929105939",
+    "Timestamp": "2025-09-29T10:59:51.8339262+07:00",
+    "Details": "Tạo đơn: 1 - 110,000đ"
+  },
+  {
+    "Id": "0fdd6a5f-dc9c-4122-be8d-ef0f88871982",
+    "Username": "admin",
+    "Action": "LOGIN",
+    "EntityType": "SYSTEM",
+    "EntityId": "",
+    "Timestamp": "2025-09-29T11:05:40.0276957+07:00",
+    "Details": "Đăng nhập hệ thống"
+  },
+  {
+    "Id": "de3690b5-fdc3-40e6-9a7b-ad0c5111f3e4",
+    "Username": "admin",
+    "Action": "IMPORT_DISHES",
+    "EntityType": "DISH",
+    "EntityId": "",
+    "Timestamp": "2025-09-29T11:06:58.2781697+07:00",
+    "Details": "Nhập từ file: monan.csv"
+  }
+]

@@ -1,0 +1,19 @@
+﻿BÁO CÁO HỆ THỐNG NHÀ HÀNG
+Thời gian: 28/09/2025 19:22:03
+==========================================
+
+Tổng số món ăn: 10
+Tổng số nguyên liệu: 15
+Tổng số combo: 0
+Tổng số đơn hàng: 0
+
+Tổng doanh thu: 0đ
+
+Top 5 món bán chạy:
+  - Phở bò: 0 lượt
+  - Bún chả: 0 lượt
+  - Cơm gà: 0 lượt
+  - Bánh mì thịt: 0 lượt
+  - Gỏi cuốn: 0 lượt
+
+Nguyên liệu cần nhập thêm:

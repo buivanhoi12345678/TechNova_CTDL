@@ -1,0 +1,51 @@
+{
+  "1": {
+    "Id": "1",
+    "Name": "mèo đen",
+    "Description": "khoái cảm cực độ",
+    "DishIds": [
+      "2006",
+      "1",
+      "1111"
+    ],
+    "OriginalPrice": 2010001.0,
+    "DiscountPercent": 10.0,
+    "FinalPrice": 1809000.90,
+    "CreatedDate": "2025-09-29T09:50:51.1073025+07:00",
+    "SalesCount": 101,
+    "IsActive": true
+  },
+  "COMBO_20250929095139": {
+    "Id": "COMBO_20250929095139",
+    "Name": "Combo món chính",
+    "Description": "Combo tự động sinh cho nhóm món chính",
+    "DishIds": [
+      "DISH001",
+      "DISH002",
+      "DISH003",
+      "DISH007"
+    ],
+    "OriginalPrice": 415000.0,
+    "DiscountPercent": 15.0,
+    "FinalPrice": 352750.000,
+    "CreatedDate": "2025-09-29T09:51:39.6933289+07:00",
+    "SalesCount": 6,
+    "IsActive": true
+  },
+  "jh": {
+    "Id": "jh",
+    "Name": "nkjk",
+    "Description": "kk",
+    "DishIds": [
+      "MA001",
+      "MA014",
+      "MA017"
+    ],
+    "OriginalPrice": 32000.0,
+    "DiscountPercent": 99.0,
+    "FinalPrice": 320.000,
+    "CreatedDate": "2025-09-29T10:49:59.6036025+07:00",
+    "SalesCount": 0,
+    "IsActive": true
+  }
+}

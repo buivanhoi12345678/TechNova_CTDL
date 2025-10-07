@@ -1,0 +1,77 @@
+{
+  "ORD_20250929095511": {
+    "Id": "ORD_20250929095511",
+    "CustomerName": "h",
+    "Items": [
+      {
+        "ItemId": "DISH001",
+        "IsCombo": false,
+        "Quantity": 5,
+        "UnitPrice": 65000.0,
+        "TotalPrice": 325000.0
+      },
+      {
+        "ItemId": "DISH003",
+        "IsCombo": false,
+        "Quantity": 2,
+        "UnitPrice": 45000.0,
+        "TotalPrice": 90000.0
+      },
+      {
+        "ItemId": "COMBO_20250929095139",
+        "IsCombo": true,
+        "Quantity": 1,
+        "UnitPrice": 352750.000,
+        "TotalPrice": 352750.000
+      }
+    ],
+    "Status": 2,
+    "OrderDate": "2025-09-29T09:55:13.8908621+07:00",
+    "CompletedDate": "2025-09-29T09:59:14.4298098+07:00",
+    "TotalAmount": 767750.000,
+    "StaffUsername": "admin"
+  },
+  "ORD_20250929105558": {
+    "Id": "ORD_20250929105558",
+    "CustomerName": "hoi",
+    "Items": [
+      {
+        "ItemId": "DISH001",
+        "IsCombo": false,
+        "Quantity": 20,
+        "UnitPrice": 65000.0,
+        "TotalPrice": 1300000.0
+      },
+      {
+        "ItemId": "COMBO_20250929095139",
+        "IsCombo": true,
+        "Quantity": 2,
+        "UnitPrice": 352750.000,
+        "TotalPrice": 705500.000
+      }
+    ],
+    "Status": 2,
+    "OrderDate": "2025-09-29T10:56:01.3029155+07:00",
+    "CompletedDate": "2025-09-29T10:58:49.6088538+07:00",
+    "TotalAmount": 2005500.000,
+    "StaffUsername": "staff"
+  },
+  "ORD_20250929105939": {
+    "Id": "ORD_20250929105939",
+    "CustomerName": "1",
+    "Items": [
+      {
+        "ItemId": "DISH002",
+        "IsCombo": false,
+        "Quantity": 2,
+        "UnitPrice": 55000.0,
+        "TotalPrice": 110000.0
+      }
+    ],
+    "Status": 0,
+    "OrderDate": "2025-09-29T10:59:40.7228426+07:00",
+    "CompletedDate": null,
+    "TotalAmount": 110000.0,
+    "StaffUsername": "staff"
+  }
+}

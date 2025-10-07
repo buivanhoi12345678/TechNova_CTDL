@@ -1,0 +1,592 @@
+{
+  "ING001": {
+    "Id": "ING001",
+    "Name": "Thịt bò",
+    "Unit": "kg",
+    "Quantity": 64.4,
+    "MinQuantity": 10.0,
+    "PricePerUnit": 250000.0,
+    "LastUpdated": "2025-09-30T21:59:37.7612165+07:00",
+    "IsLowStock": false
+  },
+  "ING002": {
+    "Id": "ING002",
+    "Name": "Thịt heo",
+    "Unit": "kg",
+    "Quantity": 59.25,
+    "MinQuantity": 8.0,
+    "PricePerUnit": 120000.0,
+    "LastUpdated": "2025-09-28T19:17:36.5737746+07:00",
+    "IsLowStock": false
+  },
+  "ING003": {
+    "Id": "ING003",
+    "Name": "Thịt gà",
+    "Unit": "kg",
+    "Quantity": 79.0,
+    "MinQuantity": 12.0,
+    "PricePerUnit": 80000.0,
+    "LastUpdated": "2025-09-28T19:17:36.5737746+07:00",
+    "IsLowStock": false
+  },
+  "ING004": {
+    "Id": "ING004",
+    "Name": "Tôm",
+    "Unit": "kg",
+    "Quantity": 50.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 300000.0,
+    "LastUpdated": "2025-09-28T19:17:36.5737746+07:00",
+    "IsLowStock": false
+  },
+  "ING005": {
+    "Id": "ING005",
+    "Name": "Cá hồi",
+    "Unit": "kg",
+    "Quantity": 40.0,
+    "MinQuantity": 4.0,
+    "PricePerUnit": 400000.0,
+    "LastUpdated": "2025-09-28T19:17:36.5737746+07:00",
+    "IsLowStock": false
+  },
+  "ING006": {
+    "Id": "ING006",
+    "Name": "Mực",
+    "Unit": "kg",
+    "Quantity": 45.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 180000.0,
+    "LastUpdated": "2025-09-28T19:17:36.5737746+07:00",
+    "IsLowStock": false
+  },
+  "ING007": {
+    "Id": "ING007",
+    "Name": "Rau xà lách",
+    "Unit": "kg",
+    "Quantity": 34.5,
+    "MinQuantity": 3.0,
+    "PricePerUnit": 30000.0,
+    "LastUpdated": "2025-09-28T19:17:36.5737746+07:00",
+    "IsLowStock": false
+  },
+  "ING008": {
+    "Id": "ING008",
+    "Name": "Cà chua",
+    "Unit": "kg",
+    "Quantity": 40.0,
+    "MinQuantity": 4.0,
+    "PricePerUnit": 25000.0,
+    "LastUpdated": "2025-09-28T19:17:36.5737746+07:00",
+    "IsLowStock": false
+  },
+  "ING009": {
+    "Id": "ING009",
+    "Name": "Hành tây",
+    "Unit": "kg",
+    "Quantity": 45.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-28T19:17:36.5737746+07:00",
+    "IsLowStock": false
+  },
+  "ING010": {
+    "Id": "ING010",
+    "Name": "Tỏi",
+    "Unit": "kg",
+    "Quantity": 1030.0,
+    "MinQuantity": 2.0,
+    "PricePerUnit": 50000.0,
+    "LastUpdated": "2025-09-30T22:07:59.5829209+07:00",
+    "IsLowStock": false
+  },
+  "ING011": {
+    "Id": "ING011",
+    "Name": "Gạo",
+    "Unit": "kg",
+    "Quantity": 110.1,
+    "MinQuantity": 20.0,
+    "PricePerUnit": 25000.0,
+    "LastUpdated": "2025-09-28T19:17:36.5737746+07:00",
+    "IsLowStock": false
+  },
+  "ING012": {
+    "Id": "ING012",
+    "Name": "Mì Ý",
+    "Unit": "kg",
+    "Quantity": 50.0,
+    "MinQuantity": 6.0,
+    "PricePerUnit": 40000.0,
+    "LastUpdated": "2025-09-28T19:17:36.5737746+07:00",
+    "IsLowStock": false
+  },
+  "ING014": {
+    "Id": "ING014",
+    "Name": "Nước mắm",
+    "Unit": "lít",
+    "Quantity": 30.0,
+    "MinQuantity": 2.0,
+    "PricePerUnit": 80000.0,
+    "LastUpdated": "2025-09-28T19:17:36.5737746+07:00",
+    "IsLowStock": false
+  },
+  "ING015": {
+    "Id": "ING015",
+    "Name": "Đường",
+    "Unit": "kg",
+    "Quantity": 35.0,
+    "MinQuantity": 3.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-28T19:17:36.5737746+07:00",
+    "IsLowStock": false
+  },
+  "NL007": {
+    "Id": "NL007",
+    "Name": "Nguyên liệu 7",
+    "Unit": "kg",
+    "Quantity": 90.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL008": {
+    "Id": "NL008",
+    "Name": "Nguyên liệu 8",
+    "Unit": "kg",
+    "Quantity": 100.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL009": {
+    "Id": "NL009",
+    "Name": "Nguyên liệu 9",
+    "Unit": "kg",
+    "Quantity": 110.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL010": {
+    "Id": "NL010",
+    "Name": "Nguyên liệu 10",
+    "Unit": "kg",
+    "Quantity": 120.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL011": {
+    "Id": "NL011",
+    "Name": "Nguyên liệu 11",
+    "Unit": "kg",
+    "Quantity": 130.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL012": {
+    "Id": "NL012",
+    "Name": "Nguyên liệu 12",
+    "Unit": "kg",
+    "Quantity": 140.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL013": {
+    "Id": "NL013",
+    "Name": "Nguyên liệu 13",
+    "Unit": "kg",
+    "Quantity": 150.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL014": {
+    "Id": "NL014",
+    "Name": "Nguyên liệu 14",
+    "Unit": "kg",
+    "Quantity": 160.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL015": {
+    "Id": "NL015",
+    "Name": "Nguyên liệu 15",
+    "Unit": "kg",
+    "Quantity": 170.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL016": {
+    "Id": "NL016",
+    "Name": "Nguyên liệu 16",
+    "Unit": "kg",
+    "Quantity": 180.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL017": {
+    "Id": "NL017",
+    "Name": "Nguyên liệu 17",
+    "Unit": "kg",
+    "Quantity": 190.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL018": {
+    "Id": "NL018",
+    "Name": "Nguyên liệu 18",
+    "Unit": "kg",
+    "Quantity": 200.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL019": {
+    "Id": "NL019",
+    "Name": "Nguyên liệu 19",
+    "Unit": "kg",
+    "Quantity": 210.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL020": {
+    "Id": "NL020",
+    "Name": "Nguyên liệu 20",
+    "Unit": "kg",
+    "Quantity": 220.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL021": {
+    "Id": "NL021",
+    "Name": "Nguyên liệu 21",
+    "Unit": "kg",
+    "Quantity": 230.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL022": {
+    "Id": "NL022",
+    "Name": "Nguyên liệu 22",
+    "Unit": "kg",
+    "Quantity": 240.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL023": {
+    "Id": "NL023",
+    "Name": "Nguyên liệu 23",
+    "Unit": "kg",
+    "Quantity": 250.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL024": {
+    "Id": "NL024",
+    "Name": "Nguyên liệu 24",
+    "Unit": "kg",
+    "Quantity": 260.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL025": {
+    "Id": "NL025",
+    "Name": "Nguyên liệu 25",
+    "Unit": "kg",
+    "Quantity": 270.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL026": {
+    "Id": "NL026",
+    "Name": "Nguyên liệu 26",
+    "Unit": "kg",
+    "Quantity": 280.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL027": {
+    "Id": "NL027",
+    "Name": "Nguyên liệu 27",
+    "Unit": "kg",
+    "Quantity": 290.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL028": {
+    "Id": "NL028",
+    "Name": "Nguyên liệu 28",
+    "Unit": "kg",
+    "Quantity": 300.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL029": {
+    "Id": "NL029",
+    "Name": "Nguyên liệu 29",
+    "Unit": "kg",
+    "Quantity": 310.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL030": {
+    "Id": "NL030",
+    "Name": "Nguyên liệu 30",
+    "Unit": "kg",
+    "Quantity": 320.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL031": {
+    "Id": "NL031",
+    "Name": "Nguyên liệu 31",
+    "Unit": "kg",
+    "Quantity": 330.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL032": {
+    "Id": "NL032",
+    "Name": "Nguyên liệu 32",
+    "Unit": "kg",
+    "Quantity": 340.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL033": {
+    "Id": "NL033",
+    "Name": "Nguyên liệu 33",
+    "Unit": "kg",
+    "Quantity": 350.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL034": {
+    "Id": "NL034",
+    "Name": "Nguyên liệu 34",
+    "Unit": "kg",
+    "Quantity": 360.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL035": {
+    "Id": "NL035",
+    "Name": "Nguyên liệu 35",
+    "Unit": "kg",
+    "Quantity": 370.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL036": {
+    "Id": "NL036",
+    "Name": "Nguyên liệu 36",
+    "Unit": "kg",
+    "Quantity": 380.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL037": {
+    "Id": "NL037",
+    "Name": "Nguyên liệu 37",
+    "Unit": "kg",
+    "Quantity": 390.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL038": {
+    "Id": "NL038",
+    "Name": "Nguyên liệu 38",
+    "Unit": "kg",
+    "Quantity": 400.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL039": {
+    "Id": "NL039",
+    "Name": "Nguyên liệu 39",
+    "Unit": "kg",
+    "Quantity": 410.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL040": {
+    "Id": "NL040",
+    "Name": "Nguyên liệu 40",
+    "Unit": "kg",
+    "Quantity": 420.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL041": {
+    "Id": "NL041",
+    "Name": "Nguyên liệu 41",
+    "Unit": "kg",
+    "Quantity": 430.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL042": {
+    "Id": "NL042",
+    "Name": "Nguyên liệu 42",
+    "Unit": "kg",
+    "Quantity": 440.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL043": {
+    "Id": "NL043",
+    "Name": "Nguyên liệu 43",
+    "Unit": "kg",
+    "Quantity": 450.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL044": {
+    "Id": "NL044",
+    "Name": "Nguyên liệu 44",
+    "Unit": "kg",
+    "Quantity": 460.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL045": {
+    "Id": "NL045",
+    "Name": "Nguyên liệu 45",
+    "Unit": "kg",
+    "Quantity": 470.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL046": {
+    "Id": "NL046",
+    "Name": "Nguyên liệu 46",
+    "Unit": "kg",
+    "Quantity": 480.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL047": {
+    "Id": "NL047",
+    "Name": "Nguyên liệu 47",
+    "Unit": "kg",
+    "Quantity": 490.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL048": {
+    "Id": "NL048",
+    "Name": "Nguyên liệu 48",
+    "Unit": "kg",
+    "Quantity": 500.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL049": {
+    "Id": "NL049",
+    "Name": "Nguyên liệu 49",
+    "Unit": "kg",
+    "Quantity": 510.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "NL050": {
+    "Id": "NL050",
+    "Name": "Nguyên liệu 50",
+    "Unit": "kg",
+    "Quantity": 520.0,
+    "MinQuantity": 5.0,
+    "PricePerUnit": 20000.0,
+    "LastUpdated": "2025-09-29T09:43:15.2963877+07:00",
+    "IsLowStock": false
+  },
+  "F2111": {
+    "Id": "F2111",
+    "Name": "Gà",
+    "Unit": "kg",
+    "Quantity": 20.0,
+    "MinQuantity": 1.0,
+    "PricePerUnit": 120000.0,
+    "LastUpdated": "2025-09-30T22:12:38.3641529+07:00",
+    "IsLowStock": false
+  }
+}
