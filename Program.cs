@@ -853,7 +853,6 @@ namespace RestaurantManagementSystem
                 throw new InvalidOperationException("Không đủ nguyên liệu để thực hiện đơn hàng");
             }
         }
-
         public void Undo()
         {
             // Khôi phục số lượng nguyên liệu
@@ -861,7 +860,6 @@ namespace RestaurantManagementSystem
             {
                 system.GetRepository().Ingredients[kvp.Key].Quantity = kvp.Value;
             }
-
             // Khôi phục số lượt bán
             foreach (var item in order.Items)
             {
@@ -880,11 +878,9 @@ namespace RestaurantManagementSystem
                     }
                 }
             }
-
             system.GetRepository().Orders.Remove(order.Id);
         }
     }
-
     public class UpdateOrderStatusCommand : ICommand
     {
         private RestaurantSystem system;
@@ -892,7 +888,6 @@ namespace RestaurantManagementSystem
         private OrderStatus oldStatus;
         private OrderStatus newStatus;
         public string Description => $"Cập nhật trạng thái đơn hàng {order.Id}: {oldStatus} -> {newStatus}";
-
         public UpdateOrderStatusCommand(RestaurantSystem system, Order order, OrderStatus newStatus)
         {
             this.system = system;
@@ -900,7 +895,6 @@ namespace RestaurantManagementSystem
             this.oldStatus = order.Status;
             this.newStatus = newStatus;
         }
-
         public void Execute()
         {
             order.Status = newStatus;
@@ -11454,3 +11448,4 @@ private void ImportDishesFromFile(string filePath)
 
 
 }
+
