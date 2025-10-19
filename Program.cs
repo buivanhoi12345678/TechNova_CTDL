@@ -1041,12 +1041,10 @@ namespace RestaurantManagementSystem
         public void OptimizeLargeDatasets()
         {
             Logger.Info("Optimizing large datasets", "MemoryManager");
-
             try
             {
                 var repo = system.GetRepository();
-
-                // Tối ưu hóa dictionaries bằng cách set capacity chính xác
+                // Tối ưu dictionary bằng việc set cap
                 if (repo.Dishes.Count > 1000)
                 {
                     var newDishes = new Dictionary<string, Dish>(repo.Dishes.Count);
@@ -1055,7 +1053,6 @@ namespace RestaurantManagementSystem
                     repo.Dishes = newDishes;
                     Logger.Info($"Optimized dishes dictionary: {repo.Dishes.Count} items", "MemoryManager");
                 }
-
                 if (repo.Ingredients.Count > 1000)
                 {
                     var newIngredients = new Dictionary<string, Ingredient>(repo.Ingredients.Count);
@@ -11448,4 +11445,5 @@ private void ImportDishesFromFile(string filePath)
 
 
 }
+
 
