@@ -130,7 +130,7 @@ namespace RestaurantManagementSystem
     }
 
 
-    public class Combo
+     public class Combo
     {
         public string Id { get; set; }
         public string Name { get; set; }
@@ -11446,6 +11446,7 @@ private void ImportDishesFromFile(string filePath)
 
 
 }
+
 
 
 
