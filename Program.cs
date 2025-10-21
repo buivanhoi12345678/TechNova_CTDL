@@ -59,30 +59,7 @@ namespace RestaurantManagementSystem
         }
     }
 
-    public class Ingredient
-    {
-        public string Id { get; set; }
-        public string Name { get; set; }
-        public string Unit { get; set; }
-        public decimal Quantity { get; set; }
-        public decimal MinQuantity { get; set; }
-        public decimal PricePerUnit { get; set; }
-        public DateTime LastUpdated { get; set; }
-
-        public Ingredient(string id, string name, string unit, decimal quantity, decimal minQuantity, decimal pricePerUnit)
-        {
-            Id = id;
-            Name = name;
-            Unit = unit;
-            Quantity = quantity;
-            MinQuantity = minQuantity;
-            PricePerUnit = pricePerUnit;
-            LastUpdated = DateTime.Now;
-        }
-
-        public bool IsLowStock { get { return Quantity <= MinQuantity; } }
-    }
-
+    
     public class Dish
     {
         public string Id { get; set; }
@@ -128,6 +105,30 @@ namespace RestaurantManagementSystem
             return Cost;
         }
     }
+    public class Ingredient
+    {
+        public string Id { get; set; }
+        public string Name { get; set; }
+        public string Unit { get; set; }
+        public decimal Quantity { get; set; }
+        public decimal MinQuantity { get; set; }
+        public decimal PricePerUnit { get; set; }
+        public DateTime LastUpdated { get; set; }
+
+        public Ingredient(string id, string name, string unit, decimal quantity, decimal minQuantity, decimal pricePerUnit)
+        {
+            Id = id;
+            Name = name;
+            Unit = unit;
+            Quantity = quantity;
+            MinQuantity = minQuantity;
+            PricePerUnit = pricePerUnit;
+            LastUpdated = DateTime.Now;
+        }
+
+        public bool IsLowStock { get { return Quantity <= MinQuantity; } }
+    }
+
 
     public class Combo
     {
@@ -11445,5 +11446,6 @@ private void ImportDishesFromFile(string filePath)
 
 
 }
+
 
 
