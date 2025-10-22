@@ -6,8 +6,8 @@ using System.IO;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
+using System.Threading;
 using Microsoft.VisualBasic.FileIO;
 
 namespace RestaurantManagementSystem
@@ -19,7 +19,6 @@ namespace RestaurantManagementSystem
         Manager,
         Staff
     }
-
     public enum OrderStatus
     {
         Pending,
@@ -27,7 +26,6 @@ namespace RestaurantManagementSystem
         Completed,
         Cancelled
     }
-
     public enum LogLevel
     {
         INFO,
@@ -35,8 +33,6 @@ namespace RestaurantManagementSystem
         ERROR,
         DEBUG
     }
-
-
 
     // ==================== MODELS ====================
     public class User
@@ -58,8 +54,6 @@ namespace RestaurantManagementSystem
             IsActive = true;
         }
     }
-
-    
     public class Dish
     {
         public string Id { get; set; }
@@ -88,7 +82,6 @@ namespace RestaurantManagementSystem
             SalesCount = 0;
             Cost = 0;
         }
-
         public decimal CalculateCost(Dictionary<string, Ingredient> ingredients)
         {
             if (ingredients == null) throw new ArgumentNullException(nameof(ingredients));
@@ -105,31 +98,6 @@ namespace RestaurantManagementSystem
             return Cost;
         }
     }
-    public class Ingredient
-    {
-        public string Id { get; set; }
-        public string Name { get; set; }
-        public string Unit { get; set; }
-        public decimal Quantity { get; set; }
-        public decimal MinQuantity { get; set; }
-        public decimal PricePerUnit { get; set; }
-        public DateTime LastUpdated { get; set; }
-
-        public Ingredient(string id, string name, string unit, decimal quantity, decimal minQuantity, decimal pricePerUnit)
-        {
-            Id = id;
-            Name = name;
-            Unit = unit;
-            Quantity = quantity;
-            MinQuantity = minQuantity;
-            PricePerUnit = pricePerUnit;
-            LastUpdated = DateTime.Now;
-        }
-
-        public bool IsLowStock { get { return Quantity <= MinQuantity; } }
-    }
-
-
      public class Combo
     {
         public string Id { get; set; }
@@ -193,6 +161,7 @@ namespace RestaurantManagementSystem
             OriginalPrice = Math.Round(OriginalPrice, 2);
             Logger.Info($"Final combo '{Name}' price: {OriginalPrice:N0}đ", "Combo");
         }
+         
 
         public decimal CalculateCost(Dictionary<string, Dish> dishes)
         {
@@ -211,10 +180,29 @@ namespace RestaurantManagementSystem
             return Cost;
         }
     }
+public class Ingredient
+    {
+        public string Id { get; set; }
+        public string Name { get; set; }
+        public string Unit { get; set; }
+        public decimal Quantity { get; set; }
+        public decimal MinQuantity { get; set; }
+        public decimal PricePerUnit { get; set; }
+        public DateTime LastUpdated { get; set; }
 
+        public Ingredient(string id, string name, string unit, decimal quantity, decimal minQuantity, decimal pricePerUnit)
+        {
+            Id = id;
+            Name = name;
+            Unit = unit;
+            Quantity = quantity;
+            MinQuantity = minQuantity;
+            PricePerUnit = pricePerUnit;
+            LastUpdated = DateTime.Now;
+        }
 
-
-
+        public bool IsLowStock { get { return Quantity <= MinQuantity; } }
+    }
     public class OrderItem
     {
         public string ItemId { get; set; }
@@ -11446,6 +11434,7 @@ private void ImportDishesFromFile(string filePath)
 
 
 }
+
 
 
 
