@@ -35,25 +35,7 @@ namespace RestaurantManagementSystem
     }
 
     // ==================== MODELS ====================
-    public class User
-    {
-        public string Username { get; set; }
-        public string PasswordHash { get; set; }
-        public UserRole Role { get; set; }
-        public string FullName { get; set; }
-        public DateTime CreatedDate { get; set; }
-        public bool IsActive { get; set; }
-
-        public User(string username, string passwordHash, UserRole role, string fullName)
-        {
-            Username = username;
-            PasswordHash = passwordHash;
-            Role = role;
-            FullName = fullName;
-            CreatedDate = DateTime.Now;
-            IsActive = true;
-        }
-    }
+    
     public class Dish
     {
         public string Id { get; set; }
@@ -96,6 +78,25 @@ namespace RestaurantManagementSystem
             }
             Cost = Math.Round(cost, 2);
             return Cost;
+        }
+    }
+    public class User
+    {
+        public string Username { get; set; }
+        public string PasswordHash { get; set; }
+        public UserRole Role { get; set; }
+        public string FullName { get; set; }
+        public DateTime CreatedDate { get; set; }
+        public bool IsActive { get; set; }
+
+        public User(string username, string passwordHash, UserRole role, string fullName)
+        {
+            Username = username;
+            PasswordHash = passwordHash;
+            Role = role;
+            FullName = fullName;
+            CreatedDate = DateTime.Now;
+            IsActive = true;
         }
     }
      public class Combo
@@ -11434,6 +11435,7 @@ private void ImportDishesFromFile(string filePath)
 
 
 }
+
 
 
 
