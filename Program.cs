@@ -181,6 +181,29 @@ namespace RestaurantManagementSystem
             return Cost;
         }
     }
+
+
+    public class SystemLog
+    {
+        public string Id { get; set; }
+        public LogLevel Level { get; set; }
+        public string Message { get; set; }
+        public string Module { get; set; }
+        public DateTime Timestamp { get; set; }
+        public string Exception { get; set; }
+        public string StackTrace { get; set; }
+
+        public SystemLog(LogLevel level, string message, string module = "", string exception = "", string stackTrace = "")
+        {
+            Id = Guid.NewGuid().ToString();
+            Level = level;
+            Message = message;
+            Module = module;
+            Timestamp = DateTime.Now;
+            Exception = exception;
+            StackTrace = stackTrace;
+        }
+    }
 public class Ingredient
     {
         public string Id { get; set; }
@@ -268,29 +291,6 @@ public class Ingredient
             IpAddress = ipAddress;
         }
     }
-
-    public class SystemLog
-    {
-        public string Id { get; set; }
-        public LogLevel Level { get; set; }
-        public string Message { get; set; }
-        public string Module { get; set; }
-        public DateTime Timestamp { get; set; }
-        public string Exception { get; set; }
-        public string StackTrace { get; set; }
-
-        public SystemLog(LogLevel level, string message, string module = "", string exception = "", string stackTrace = "")
-        {
-            Id = Guid.NewGuid().ToString();
-            Level = level;
-            Message = message;
-            Module = module;
-            Timestamp = DateTime.Now;
-            Exception = exception;
-            StackTrace = stackTrace;
-        }
-    }
-
     // ==================== SERVICES ====================
     public static class SecurityService
     {
@@ -11435,6 +11435,7 @@ private void ImportDishesFromFile(string filePath)
 
 
 }
+
 
 
 
